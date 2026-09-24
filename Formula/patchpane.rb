@@ -1,12 +1,11 @@
 class Patchpane < Formula
   desc "Local, self-contained HTML viewer for Git diffs"
   homepage "https://github.com/pelarejo/Patchpane"
-  url "https://github.com/pelarejo/Patchpane/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "3014f2f4949a52916893e18e7b29768ecdfcfbf404b37782040be0d7e7f57310"
+  url "https://github.com/pelarejo/Patchpane/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "a0ae4c601476a176b975e4e76aff789655ec06faebab4e527944609493b88ccd"
   license "MIT"
 
   depends_on "rust" => :build
-  depends_on "git"
 
   def install
     system "cargo", "install", *std_cargo_args
