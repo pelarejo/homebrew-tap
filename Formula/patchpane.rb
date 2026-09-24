@@ -5,6 +5,12 @@ class Patchpane < Formula
   sha256 "a0ae4c601476a176b975e4e76aff789655ec06faebab4e527944609493b88ccd"
   license "MIT"
 
+  bottle do
+    root_url "https://github.com/pelarejo/homebrew-tap/releases/download/patchpane-0.1.1"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "32a6f4d5a807d70e012cbc73b35f90eb458973cecb0e185dc2d53509faa63f11"
+    sha256 cellar: :any,                 x86_64_linux: "b0a0d5f82e35c8877ad11e49e92fceee191c13da4806055e9b508f3bc65cba38"
+  end
+
   depends_on "rust" => :build
 
   def install
