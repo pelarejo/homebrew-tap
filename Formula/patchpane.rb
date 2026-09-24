@@ -4,6 +4,7 @@ class Patchpane < Formula
   url "https://github.com/pelarejo/Patchpane/archive/refs/tags/v0.1.1.tar.gz"
   sha256 "a0ae4c601476a176b975e4e76aff789655ec06faebab4e527944609493b88ccd"
   license "MIT"
+  head "https://github.com/pelarejo/Patchpane.git", branch: "main"
 
   bottle do
     root_url "https://github.com/pelarejo/homebrew-tap/releases/download/patchpane-0.1.1"
