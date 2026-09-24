@@ -1,8 +1,8 @@
 class Patchpane < Formula
   desc "Local, self-contained HTML viewer for Git diffs"
   homepage "https://github.com/pelarejo/Patchpane"
-  url "https://github.com/pelarejo/Patchpane/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "a0ae4c601476a176b975e4e76aff789655ec06faebab4e527944609493b88ccd"
+  url "https://github.com/pelarejo/Patchpane/archive/refs/tags/v0.1.2.tar.gz"
+  sha256 "2c71983e03d7f112225b6c7c1c62c9fdb56c48ff0291178ea1736bb8983fda2c"
   license "MIT"
 
   bottle do
